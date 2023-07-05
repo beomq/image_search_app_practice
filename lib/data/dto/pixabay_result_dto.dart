@@ -15,6 +15,7 @@ class PixabayResultDto {
       });
     }
   }
+
   num? total;
   num? totalHits;
   List<Hits>? hits;
@@ -80,6 +81,7 @@ class Hits {
     user = json['user'];
     userImageURL = json['userImageURL'];
   }
+
   num? id;
   String? pageURL;
   String? type;
