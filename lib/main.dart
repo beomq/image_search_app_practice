@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:image_search_app_practice/router.dart';
+import 'package:image_search_app_practice/core/router/router.dart';
 
 void main() {
   runApp(const MyApp());
